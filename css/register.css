@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.register-box{
+    width: 50%;
+    /* margin: 0% 20% 0% 20%; */
+    padding: 2rem 0;
+    margin: 2rem 0;
+    border-radius: 20px;
+    box-shadow: 12px 12px 35px #c1c1c1, -12px -12px 35px #ffffff;
+}
+ 
+.register-box input{
+    width: 100%;
+} 
+
+.register-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.register-form{
+    max-width: 30rem;
+    margin: auto !important;
+}
+@media screen and (max-width : 770px ){
+    .register-box{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width : 430px ){
+    .register-header .h1{
+        font-size: 2rem;
+    }
+    .register-header {
+        font-size: 0.95rem;
+    }
+    .register-box{
+        /* margin: 2% 0% 0% 0%; */
+        width: 100%;
+    }
+}

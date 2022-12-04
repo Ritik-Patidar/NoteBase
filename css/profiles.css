@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.add{
+    height: 25px;
+    margin-right: 25px;
+    filter: invert(1);
+}
+.delete-modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.delete-modal-img{
+    height: 4rem;
+    width: 4rem;
+    color: red;
+    margin: 25px;
+}
+.account-icon , .upload-icon{
+    height: 2rem;
+    width: 2rem;
+    color: white;
+}
+.account-icon{
+    margin-left: 2rem;
+}
+.sec-nav-item{
+    text-align: center;
+}
+.sec-nav-item a{
+    font-size: 1.4rem;
+    color: #495057;
+}
+
+
+
+/* viewsubmissions.php */
+
+.table-box{
+    box-shadow: 0 0 40px 0 rgb(0 0 0 / 15%);
+    border-radius: 15px;
+    margin-top: 2rem;
+    
+}
+table{
+    height: 500px;
+}
+
+.table-box{
+    padding: 1rem ;
+}
